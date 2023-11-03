@@ -97,6 +97,7 @@ body{
     display:flex;
     background-color: #E5E7Eb;
     padding: 20px;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -158,6 +159,7 @@ ul{
 .sign-up-banner-container{
     display:flex;
     background-color: #3882f6;
+    border-radius: 8px;
     flex-basis: 500px;
     padding: 40px 80px;
     gap: 80px;
