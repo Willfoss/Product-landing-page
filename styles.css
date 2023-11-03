@@ -66,6 +66,7 @@ body{
 
 .content-container{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -77,6 +78,7 @@ body{
 }
 
 .content-image{
+    display: flex;
     width:300px;
     height: auto;
     border: 5px solid #3882f6;
@@ -93,10 +95,10 @@ body{
 
 .quote{
     display:flex;
-    flex-direction: column;
     background-color: #E5E7Eb;
-    padding: 40px;
+    padding: 20px;
     align-items: center;
+    gap: 10px;
 }
 .quote-text{
     font-style: light-italic;
@@ -104,11 +106,13 @@ body{
     color: #1f2937;
     margin: 0px;
     padding: 0px;
+    margin: 20px;
 }
 
 .quote-speaker{
+    display:flex;
     font-weight: bold;
-    margin-left: 800px;
+    align-self: flex-end;
 }
 
 .sign-up{
@@ -155,7 +159,7 @@ ul{
     display:flex;
     background-color: #3882f6;
     flex-basis: 500px;
-    padding: 80px;
+    padding: 40px 80px;
     gap: 80px;
 }
 
